@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+body {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 1.2em;
+}
+
+#outside{
+    background-color: lightgoldenrodyellow;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+form{
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+#radio-btn input, #checkbox-btn input{
+    width: 2%;
+}
+
+#survey-form{
+    background-color: white;
+}
+
+
+fieldset{
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+
+legend{
+    font-weight: 700;
+}
+
+div + div {
+    margin-top: 1em;
+}
+
+input{
+    width: 200px;
+    border: 1px solid #999;
+}
+
+textarea{
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+    width: 440px;
+}
+
+button{
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: #ccc;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#submit_button{
+    display: flex;
+    justify-content: center;
+}
